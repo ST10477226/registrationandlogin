@@ -32,9 +32,9 @@ public class RegistrationAndLoginApp {
         });
     }
 
-    // ----------------------------
-    // Registration Form (unchanged)
-    // ----------------------------
+   
+    // Registration Form
+ 
     public static class RegistrationForm extends JFrame {
         public JTextField usernameField, phoneField;
         public JPasswordField passwordField;
@@ -155,8 +155,7 @@ public class RegistrationAndLoginApp {
     }
 
     
-    // Login Form (unchanged)
-   
+    // Login Form
     public static class LoginForm extends JFrame {
         public JTextField usernameField;
         public JPasswordField passwordField;
@@ -252,9 +251,9 @@ public class RegistrationAndLoginApp {
         }
     }
 
-    // ------------------------
+    
     // QuickChat and Messaging
-    // ------------------------
+    
     public void runQuickChat() {
         // Apply pink and blue theme to JOptionPane
         UIManager.put("OptionPane.background", new Color(173, 216, 230)); // Light blue
